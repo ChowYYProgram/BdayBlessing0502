@@ -1,5 +1,5 @@
 body {
-    margin-top: 250px;    
+    margin-top: 25vh; 
     background-image: url(pictures/postcard.jpg);
     background-position: center;
     background-size: cover;
@@ -12,13 +12,10 @@ p {
 }
 
 .card-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+    text-align: center;
 }
 
-/*.picture {
+.picture {
     border-radius: 25px;
     object-fit: cover;
     margin-right: 10vw;
@@ -27,23 +24,23 @@ p {
 }
 
 .card-title {
-    font-size: 30px;
-    text-align: right;
+    font-size: 40px;
     margin-right: 10vw;
+    text-align: center;
     font-family: "Rouge Script", cursive;
 }
 
 .card-description {
         margin-top: 10px;
-        font-size: 14px;
+        font-size: 20px;
         background-image: url(letter-background.jpg);
         background-size: cover;
         background-position: center;
         background-size: cover;
-        text-align: right;
-}*/
+        text-align: center;
+}
 
-@media (max-width: 665px) {
+/*@media (max-width: 665px) {
     .picture {
         border-radius: 25px;
         object-fit: cover;
@@ -184,4 +181,4 @@ p {
         position: relative;
         margin-right: 5vw;
     }
-}
+}*/
