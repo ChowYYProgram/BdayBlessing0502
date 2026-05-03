@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hey&excl;</title>
+        <meta name="viewport" content="width=device_width" initial-scale="1.0">
+        <style>
+            body {
+                background-image: url(white-paper-texture.jpg);
+            }
+
+            p {
+                margin: 0;
+            }
+
+            .text-title {
+                font-size: 25px;
+                font-weight: bold;
+            }
+
+            .text-description {
+                font-size: 24px;
+                font-weight: bold;
+                margin-top: 10px;
+            }
+
+            .text {
+                margin-top: 300px;
+                text-align: center;
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+
+            .secondary-text {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+
+            .return-text {
+                font-size: 20px;
+                margin-top: 10px;
+                text-align: center;
+                background-color: black;
+                color: white;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+
+            .return-anchor {
+                text-decoration: none;
+                color: yellow;
+                cursor: pointer;
+                transition: underline 0.15s, opacity 0.15;
+            }
+
+            .return-anchor:hover {
+                text-decoration: underline;
+            }
+
+            .return-anchor:active {
+                opacity: 0.7;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="text">
+            <p class="text-title">Hey&excl; What are you doing here&quest;</p>
+            <p class="text-description">You are not supposed to be looking at website&excl;</p>
+        </div>
+
+        <div class="secondary-text">
+            <p class="return-text">Press <a class="return-anchor" href="secret surprise.html">me</a> to return</p>
+        </div>
+    </body>
+</html>

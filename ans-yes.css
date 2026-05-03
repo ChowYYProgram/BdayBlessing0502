@@ -1,0 +1,54 @@
+body {
+    margin-top: 35vh;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.letter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    background-color: rgb(35, 35, 175);
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.letter-number {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+.icon-container {
+    position: relative;
+}
+
+.top-letter-number {
+    position: absolute;
+    top: -3px;
+    right: -8px;
+    color: white;
+    background-color: red;
+    font-size: 14px;
+    padding: 1.2px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 8.5px;
+    box-shadow: -1px 1px 2px rgb(35, 35, 175);
+}
+
+.letter-icon {
+    width: 40px;
+}
+
