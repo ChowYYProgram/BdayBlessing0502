@@ -18,14 +18,11 @@ p {
 .picture {
     border-radius: 25px;
     object-fit: cover;
-    margin-right: 10vw;
-    margin-left: 5vw;
     max-width: 300px;
 }
 
 .card-title {
     font-size: 40px;
-    margin-right: 10vw;
     text-align: center;
     font-family: "Rouge Script", cursive;
 }
@@ -33,7 +30,7 @@ p {
 .card-description {
         margin-top: 10px;
         font-size: 20px;
-        background-image: url(letter-background.jpg);
+        background-image: url(pictures/letter-background.jpg);
         background-size: cover;
         background-position: center;
         background-size: cover;
