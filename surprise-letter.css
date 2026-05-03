@@ -1,6 +1,6 @@
 body {
     margin-top: 250px;    
-    background-image: url(postcard.jpg);
+    background-image: url(pictures/postcard.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -61,7 +61,7 @@ p {
     .card-description {
         margin-top: 5px;
         font-size: 14px;
-        background-image: url(letter-background.jpg);
+        background-image: url(pictures/letter-background.jpg);
         background-size: cover;
         background-position: center;
         background-size: cover;
@@ -89,7 +89,7 @@ p {
     .card-description {
         margin-top: 5px;
         font-size: 14px;
-        background-image: url(letter-background.jpg);
+        background-image: url(pictures/letter-background.jpg);
         background-size: cover;
         background-position: center;
         background-size: cover;
@@ -117,7 +117,7 @@ p {
     .card-description {
         margin-top: 5px;
         font-size: 14px;
-        background-image: url(letter-background.jpg);
+        background-image: url(pictures/letter-background.jpg);
         background-size: cover;
         background-position: center;
         background-size: cover;
@@ -145,7 +145,7 @@ p {
     .card-description {
         margin-top: 10px;
         font-size: 14px;
-        background-image: url(letter-background.jpg);
+        background-image: url(pictures/letter-background.jpg);
         background-size: cover;
         background-position: center;
         background-size: cover;
@@ -176,7 +176,7 @@ p {
     .card-description {
         margin-top: 10px;
         font-size: 14px;
-        background-image: url(letter-background.jpg);
+        background-image: url(pictures/letter-background.jpg);
         background-size: cover;
         background-position: center;
         background-size: cover;
